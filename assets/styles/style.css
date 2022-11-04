@@ -36,18 +36,14 @@ main {
 }
 
 .title {
-  margin: 0 0 8px 0;
+  margin: 0 0 8px;
   font-size: 18px;
   font-weight: 700;
 }
 
 .desc {
- font-size: 18px;
- color: #111;
-}
-
-.date {
-  font-style: italic;
+  font-size: 18px;
+  color: #111;
 }
 
 .spone {
