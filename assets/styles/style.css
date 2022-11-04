@@ -110,6 +110,10 @@ main {
   display: flex;
 }
 
+.post-img:hover {
+  background-color: #ccc;
+}
+
 .p-image {
   width: 50px;
 }
