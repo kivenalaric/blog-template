@@ -22,6 +22,7 @@ main {
 }
 
 .left-first {
+  width: 100%;
   background: #fff;
   margin-bottom: 20px;
   box-shadow: 2px 2px 15px #00000080;
@@ -94,6 +95,7 @@ main {
   margin-bottom: 8px;
   margin-left: 10px;
   box-shadow: 2px 2px 15px #00000080;
+  width: 100%;
 }
 
 .p-post {
@@ -138,5 +140,30 @@ main {
   border: none;
   padding: 5px 10px;
   background-color: #000;
+  color: #fff;
+}
+
+footer {
+  background-color: #514d4d;
+  color: #fff;
+  margin-top: 16px;
+  padding: 25px 16px;
+}
+
+.foot {
+  color: #fff;
+  background-color: #000;
+  text-decoration: none;
+  margin: 20px 0;
+  padding: 14px 23px;
+}
+
+.foot:hover {
+  color: #000;
+  background-color: #393636;
+}
+
+.w3 {
+  text-decoration: underline;
   color: #fff;
 }
