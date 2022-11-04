@@ -1,0 +1,25 @@
+body {
+  background-color: #bebeb69d;
+}
+
+header {
+  text-align: center;
+  padding: 4px 2px;
+}
+
+header h1 {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 35px;
+}
+
+p {
+  line-height: 1.5rem;
+  margin: 1rem 0;
+}
+
+.spone {
+  background-color: #000;
+  color: #fff;
+  padding: 3px 6px;
+  display: inline-block;
+}
