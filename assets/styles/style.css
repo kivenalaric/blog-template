@@ -1,10 +1,16 @@
 body {
   background-color: #f2eded9d;
+  margin: 0;
+}
+
+#container {
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 header {
   text-align: center;
-  padding: 4px 2px;
+  padding: 32px 16px;
 }
 
 header h1 {
@@ -13,8 +19,8 @@ header h1 {
 }
 
 p {
-  line-height: 1.5rem;
-  margin: 1rem 0;
+  line-height: 22px;
+  margin: 16px 0;
 }
 
 main {
@@ -70,7 +76,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  margin-top: 60px;
+  margin-top: 32px;
 }
 
 .comments {
@@ -90,17 +96,37 @@ main {
   background-color: #d0cccc;
 }
 
+.left {
+  padding: 1rem;
+}
+
+.right {
+  padding: 1rem;
+}
+
 .right-first {
   background: #fff;
-  margin-bottom: 8px;
-  margin-left: 10px;
+  margin-bottom: 32px;
   box-shadow: 2px 2px 15px #00000080;
+}
+
+.avatar {
   width: 100%;
+}
+
+.right-body {
+  padding: 2px 16px;
+}
+
+.post {
+  background: #fff;
+  margin-bottom: 8px;
+  box-shadow: 2px 2px 15px #00000080;
 }
 
 .p-post {
   background-color: #d0cccc;
-  padding: 10px  5px;
+  padding: 5px;
   border-bottom: 2px solid #5c5b5b;
 }
 
@@ -166,4 +192,30 @@ footer {
 .w3 {
   text-decoration: underline;
   color: #fff;
+}
+
+@media only screen and (max-width= 768px;) {
+    .left {
+      width: 100%;
+      padding: 0;
+    }
+
+    .right {
+      width: 100%;
+      margin-left: 0;
+      padding: 0;
+    }
+
+    main {
+      flex-direction: column;
+    }
+
+    #container {
+      display: block;
+    }
+
+    footer {
+      width: 100%;
+    }
+    
 }
