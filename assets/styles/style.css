@@ -5,8 +5,9 @@ body {
 
 #container {
   width: 100vw;
-  margin: 0 auto;
+  margin: auto;
   justify-content: center;
+  display: block;
 }
 
 header {
@@ -24,9 +25,12 @@ p {
   margin: 16px 0;
 }
 
-main {
-  display: flex;
+.main {
+  display: grid;
+  grid-template-columns: auto auto;
   justify-content: center;
+  width: 100vw;
+  margin: auto;
 }
 
 .left-first {
@@ -198,7 +202,11 @@ footer {
   color: #fff;
 }
 
-@media only screen and (max-width= 992px;) {
+@media only screen and (max-width= 768px;) {
+    #container {
+      margin: 0;
+      max-width: 100%;
+    }
     .left {
       width: 100vw;
       margin: 0;
@@ -209,10 +217,8 @@ footer {
       margin: 0; 
     }
 
-    main {
-      display: grid;
+    .main {
       grid-template-columns: 1fr;
-      justify-content: center;
     }
 
     footer {
