@@ -135,7 +135,13 @@ p {
   margin: 0;
   padding: 2px 10px;
   align-items: center;
-  border-bottom: 1px solid #5c5b5b;
+  display: flex;
+}
+
+.post-img2 {
+  margin: 0;
+  padding: 2px 10px;
+  align-items: center;
   display: flex;
 }
 
@@ -198,17 +204,29 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
-    .left {
-      margin: auto;
-    }
-
-    .right {
-      margin: auto;
-      max-width: 762px; 
-    }
-
-    .main {
-      display: block;
-      margin: auto;
-    } 
+  .left {
+    margin: auto;
   }
+
+  .right {
+    margin: auto;
+    max-width: 762px; 
+  }
+
+  .main {
+    display: block;
+    margin: auto;
+  }
+
+  .post-img2 {
+    display: none;
+  }
+
+  .first-bottom .btn {
+    font-size: 12px;
+  }
+
+  .first-bottom .comments {
+    font-size: 15px;
+  }
+}
