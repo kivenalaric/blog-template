@@ -2,7 +2,7 @@
 
 ## ABOUT
 
--This is a blog template project amongst 7 projects given to i and my mates as an assignment to test our skills on html and css.
+-This is a blog template project amongst 7 projects given to i and my mates as an assignment to test our skills on HTML and CSS.
 
 ## App
 
